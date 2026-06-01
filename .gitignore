@@ -1,0 +1,56 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+menv/
+
+# ======================
+# Node.js
+# ======================
+node_modules/
+dist/
+build/
+
+# ======================
+# Environment Files
+# ======================
+.env
+backend/.env
+frontend/.env
+
+# Keep examples
+!backend/.env.example
+!frontend/.env.example
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Docker
+# ======================
+*.tar

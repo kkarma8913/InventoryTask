@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.navbar {
+  background: #2563eb;
+  padding: 15px 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #dbeafe;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.form-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #dc2626;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+.table-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+table tr:hover {
+  background: #f9fafb;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
